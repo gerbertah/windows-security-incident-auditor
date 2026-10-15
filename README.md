@@ -42,4 +42,4 @@ Ejecuta PowerShell con privilegios elevados:
 .\Audit-WindowsSecurity.ps1 -Dias 30 -Modo Todo -SinPreguntas
 
 # Modo con privilegios elevados en una sola linea cambias el 7 por los dias que necesites
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Users\UserName\Desktop\Audit-WindowsSecurity.ps1 -Dias 7 -Modo Todo -MaximoPorEvento 5000 -SinPreguntas"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File ".\Audit-WindowsSecurity.ps1 -Dias 7 -Modo Todo -MaximoPorEvento 5000 -SinPreguntas"
